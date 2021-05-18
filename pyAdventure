@@ -1,0 +1,114 @@
+print('''             _..._
+                     /MMMMM\
+                    (I8H#H8I)
+                    (I8H#H8I)
+                     \WWWWW/
+                      I._.I
+                      I._.I
+                      I._.I
+                      I._.I
+                      I._.I
+                      I._.I
+                      I._.I
+                      I.,.I
+                     / /#\ \
+                   .dH# # #Hb.
+               _.~d#XXP I 7XX#b~,_
+            _.dXV^XP^ Y X Y ^7X^VXb._
+           /AP^   \PY   Y   Y7/   ^VA\
+          /8/      \PP  I  77/      \8\
+         /J/        IV     VI        \L\
+         L|         |  \ /  |         |J
+         V          |  | |  |          V
+                    |  | |  |
+                    |  | |  |
+                    |  | |  |
+                    |  | |  |
+ _                  |  | |  |                  _
+( \                 |  | |  |                 / )
+ \ \                |  | |  |                / /
+('\ \               |  | |  |               / /`)
+ \ \ \              |  | |  |              / / /
+('\ \ \             |  | |  |             / / /`)
+ \ \ \ )            |  | |  |            ( / / /
+('\ \( )            |  | |  |            ( )/ /`)
+ \ \ ( |            |  | |  |            | ) / /
+  \ \( |            |  | |  |            | )/ /
+   \ ( |            |  | |  |            | ) /
+    \( |            |   Y   |            | )/
+     | |            |   |   |            | |
+     J | ___...~~--'|   |   |`--~~...___ | L
+     >-+<...___     |   |   |     ___...>+-<
+    /     __   `--~.L___L___J.~--'   __     \
+    K    /  ` --.     d===b     .-- '  \    H
+    \_._/        \   // I \\   /        \_._/
+      `--~.._     \__\\ I //__/     _..~--'
+             `--~~..____ ____..~~--'
+                    |   T   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    |   |   |
+                    I   '   I
+                     \     /
+                      \   /
+                       \ /
+''')
+
+first= input('''
+Welcome to the Tricksters Castle. \n
+Your mission is to get out of here alive.
+\n\n\n
+Your cell door has been left wide open.\n
+Will you go left, right or stay?\n
+''')
+
+
+if first.lower()=='left':
+    print('''
+    You walk left around the corner. The guard patroling the hallway spots you.
+    Game over.''')
+elif first.lower()=='right':
+    second = input('''
+    You head around the corner on the right side and come to a window.\n
+    The seas crashing benath the window, or continuing down the hallway. Seas or hallway?''')
+    if second.lower() == 'hallway':
+        print('''
+    You continue down the hallway. There's a door slightly ajar, golden light shining through. \n
+    It's the treasury!\n
+    Right in the middle is a sword shining with magical energy. Unable to resist the temptation\n
+    you grab it and raise it above your head! The sword speaks. Wait, the sword speaks?\n
+    "You're no hero, you're nothing more than a thief. I'll cut you down here, before you do more\n
+    evil in the world."\n
+    Off goes your head, game over. ''')
+    else:print('''
+    You jump out the window with no regard for your life. Only freedom matters now. \n
+    The impact isn't too bad but the water is cold, the current is strong and you can barely breathe. \n
+    You pass out. \n
+    When you awake you're on an island, stranded alone. Not much here. Doesn't even take too long \n
+    to walk around the entire thing. But I guess you're out of the castle. \n
+    You win? :shrug: \n
+    ''')
+
+
+else:
+    print('''...............\n
+...............\n
+...............\n
+...............\n
+Alright you're free to go. We realized you were just a deliveryman.
+Sorry about that, we ramped up security with the oncoming invasion.
+Make sure you collect your pass on the way out so we know next time.
+YOU WIN!''')
+
+
+
+
